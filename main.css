@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    /* height: 100vh; */
+    overflow: hidden;
+    position: relative;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    background-color: rgb(33, 171, 70);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    display: flex;
+    margin-left: 30px;
+    font-size: 15px;
+    color: white;
+}
+li:hover{
+    scale: 1.2;
+    color: red;
+}
+main{
+    width: 100%;
+    height: 82vh;
+    background-image: url(../images/Vf4Boe1shztYUp3VpgQfHTcebovkFww-.jpg);
+    background-size: cover;
+    background-position: center;
+}
+main img{
+    width: 100%;
+    height: 83vh;
+}
+
+
+.main1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    transition: all 1s ease;
+}
+.main1 input{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+.main1 input:hover{
+    scale: 1.3;
+}
+button{
+    width: 250px;
+    font-size: 20px;
+}
+button:hover{
+    scale: 1.2;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foot{
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(60, 38, 38);
+    color: rgb(194, 21, 21);
+    text-align: center;
+    margin: 0 auto;
+}
+.foot li{
+    text-align: center;
+    margin: 10px auto;
+    color: antiquewhite;
+}
+.foot li a{
+    color: antiquewhite;
+
+}
+
+
+
+
+.main1{
+    display: none;
+} 
+
+.hidden{
+    right: -100%;
+    position: absolute;
+    right: -100%;
+}
+
+.show{
+    display: block;
+}
